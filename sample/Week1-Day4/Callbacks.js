@@ -9,6 +9,7 @@ o After the delay (2 seconds), invoke the callback function and pass the browser
 4. Call checkBrowserVersion and pass the callback function to it. o The callback should print the
 browser version after the 2-second delay.
 */
+
 let browser = "Chrome";
 function checkBrowserVersion(callback){
     setTimeout(function(){
