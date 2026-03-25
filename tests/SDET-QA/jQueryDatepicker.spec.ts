@@ -21,7 +21,7 @@ test('jquery date picker',async({page})=>{
         if(currentMonth===month && currentYear===year){
             break;
         }
-        //Future
+        //Futuregg
        // await page.locator('.ui-datepicker-next').click();
         //past
         await page.locator('.ui-datepicker-prev').click();
