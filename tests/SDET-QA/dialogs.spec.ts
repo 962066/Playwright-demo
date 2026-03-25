@@ -5,7 +5,7 @@
 
 import {test,expect,Locator} from '@playwright/test'
 
-test('simple alert',async({page})=>{
+test.only('simple alert',async({page})=>{
    await page.goto("https://testautomationpractice.blogspot.com/");
    page.on('dialog',(dialog)=>{
     console.log('Dialog type is',dialog.type());//returns type of the dialog
@@ -38,7 +38,7 @@ test('confirm alert',async({page})=>{
 
 })
 
-test.only('prompt alert',async({page})=>{
+test('prompt alert',async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/");
     page.on('dialog',(dialog)=>{
     console.log('Dialog type is',dialog.type());//returns type of the dialog

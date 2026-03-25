@@ -1,5 +1,5 @@
 /*
-once  -> Executes only the specific tests
+only  -> Executes only the specific tests
 skip  -> Skips the test
 fail  -> Used to fail the test intentionally
 fixme -> If the test is partially completed then we can use this annotation , this annotation basically skip the tests
