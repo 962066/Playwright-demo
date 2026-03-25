@@ -15,3 +15,4 @@ To view trace file (3 ways)
 1)from html file click on trace.zip
 2)through command - npx playwright show-trace trace.zip
 3) utility -> https://trace.playwright.dev/ (drag and drop the file trace.zip file)
+*/
